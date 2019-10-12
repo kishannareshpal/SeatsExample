@@ -1,0 +1,4 @@
+#Sat Oct 12 11:44:26 BST 2019
+base.0=/Users/kishan/AndroidStudioProjects/SeatsExample/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
