@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         SeatsView seatsView = findViewById(R.id.seatsview);
 
         String patt = "0002,11,11011,11011,11011,11011,11011,11011,11011,11011,11011,11011";
-        List<String> resevations = Arrays.asList("5");
+        List<String> resevations = Arrays.asList("5", "234");
         seatsView.show(patt, resevations, new SeatsView.OnSeatClickListener() {
             @Override
             public void OnSeatClick(int seatId, boolean isSelected, List<String> selectedSeatsList) {

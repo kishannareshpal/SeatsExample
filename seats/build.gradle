@@ -1,5 +1,5 @@
-apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'com.android.library'
 
 publish {
     def groupProjectID = 'com.kishannareshpal'
@@ -12,7 +12,10 @@ publish {
     artifactId = artifactProjectID
     publishVersion = publishVersionID
     desc = 'A cool android seats chooser library.'
-    website = 'https://github.com/kishannareshpal/Seats'
+    website = 'https://github.com/kishannareshpal/SeatsExample'
+
+    // to publish a new version, update the publishVersionID def and use:
+    // ./gradlew clean build bintrayUpload -PbintrayUser=kishannareshpal -PbintrayKey=ce6fff431e58e05cdad328bff33adfbde31e0ca6 -PdryRun=false
 }
 
 android {
