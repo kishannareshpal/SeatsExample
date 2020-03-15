@@ -15,7 +15,7 @@ publish {
     website = 'https://github.com/kishannareshpal/SeatsExample'
 
     // to publish a new version, update the publishVersionID def and use:
-    // ./gradlew clean build bintrayUpload -PbintrayUser=kishannareshpal -PbintrayKey=ce6fff431e58e05cdad328bff33adfbde31e0ca6 -PdryRun=false
+    // ./gradlew clean build bintrayUpload -PbintrayUser={yourusername} -PbintrayKey={yourpublickey} -PdryRun=false
 }
 
 android {
